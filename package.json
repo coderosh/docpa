@@ -1,6 +1,6 @@
 {
   "name": "docpa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "description": "A simple library for web scraping. Uses htmlparser2 to parse dom",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "clean": "rimraf dist",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "npm run build"
   },
   "files": [
     "dist"
