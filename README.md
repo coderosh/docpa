@@ -1,6 +1,6 @@
 # Docpa
 
-> A simple library that I use for web scraping. Uses htmlparser2 for parsing dom.
+> A simple library that I use for web scraping. Uses htmlparser2 to parse dom.
 
 ### Usage
 
@@ -30,6 +30,6 @@ doc.firstChild
 doc.lastChild
 ```
 
-## License
+### License
 
 MIT

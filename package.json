@@ -2,6 +2,7 @@
   "name": "docpa",
   "version": "1.0.0",
   "main": "./dist/index.js",
+  "description": "A simple library for web scraping. Uses htmlparser2 to parse dom",
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix",
@@ -32,8 +33,7 @@
   "dependencies": {
     "css-select": "^4.2.1",
     "dom-serializer": "^1.3.2",
-    "htmlparser2": "^7.2.0",
-    "typescript": "^4.5.4"
+    "htmlparser2": "^7.2.0"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
@@ -49,7 +49,8 @@
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.1.2",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
   },
   "jest": {
     "preset": "ts-jest",
